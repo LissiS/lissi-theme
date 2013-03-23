@@ -716,7 +716,7 @@ img.noshadow {
 
 /*Anchor tags*/
 a {
-  color: #ea0000;
+  color: #b6316c;
   text-decoration: none;
 }
 
@@ -1181,7 +1181,7 @@ button:hover, .button:hover, input[type=submit]:hover {
 }
 
 button.alt, .button.alt, input[type=submit].alt {
-  background: #ea0000;
+  background: #b6316c;
   color: #fffefe;
   text-shadow: 0px -1px 0px rgba(5, 0, 0, 0.3);
 }
@@ -1769,7 +1769,7 @@ button, .button, input[type=submit] {
 }
 #comments .comment-edit-link {
   font-weight: 700;
-  color: #ea0000;
+  color: #b6316c;
 }
 #comments .children {
   list-style: none;
