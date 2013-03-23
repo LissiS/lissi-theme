@@ -613,16 +613,16 @@ img, object, embed, video {
 }
 
 /* Nicolas Gallagher's micro clearfix */
-.row:before, .row:after, .clearfix:before, .post.leftaside .post-content:before, .type-page.leftaside .post-content:before, #site-nav .menu:before, .comment-content:before, .clearfix:after, .post.leftaside .post-content:after, .type-page.leftaside .post-content:after, #site-nav .menu:after, .comment-content:after {
+.row:before, .row:after, .clearfix:before, .post.leftaside .post-content:before, .type-page.leftaside .post-content:before, #site-nav .menu:before, #site-nav:before, .comment-content:before, .clearfix:after, .post.leftaside .post-content:after, .type-page.leftaside .post-content:after, #site-nav .menu:after, #site-nav:after, .comment-content:after {
   content: "";
   display: table;
 }
 
-.row:after, .clearfix:after, .post.leftaside .post-content:after, .type-page.leftaside .post-content:after, #site-nav .menu:after, .comment-content:after {
+.row:after, .clearfix:after, .post.leftaside .post-content:after, .type-page.leftaside .post-content:after, #site-nav .menu:after, #site-nav:after, .comment-content:after {
   clear: both;
 }
 
-.row, .clearfix, .post.leftaside .post-content, .type-page.leftaside .post-content, #site-nav .menu, .comment-content {
+.row, .clearfix, .post.leftaside .post-content, .type-page.leftaside .post-content, #site-nav .menu, #site-nav, .comment-content {
   zoom: 1;
 }
 
@@ -1356,6 +1356,7 @@ button, .button, input[type=submit] {
 #site-nav ul {
   margin: 0 0 15px 0;
   list-style: none;
+  float: right;
 }
 #site-nav ul ul {
   background: #fff;

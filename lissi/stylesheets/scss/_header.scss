@@ -16,9 +16,13 @@
 	
 	margin:$row-height auto $row-height * 2 auto; 
 	border-bottom:$border-break;
+	@extend .clearfix;
+
 	ul { 
 		margin:0 0 $row-height 0;
 		list-style: none;
+		float: right;
+		
 		ul {
 			background:#fff; 
 			background:rgba(255,255,255,0); 
