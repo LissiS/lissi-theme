@@ -1,1 +1,3 @@
 *.json
+.sass-cache
+stylesheets/css
