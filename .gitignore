@@ -1,3 +1,5 @@
 *.json
 .sass-cache
 lissi/stylesheets/css
+*.sublime-project
+*.sublime-workspace
